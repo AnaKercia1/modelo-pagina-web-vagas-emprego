@@ -1,0 +1,251 @@
+:root {
+    --text-color: #667085;
+    --text-color2: #8E2424;
+    --text-color3: #101828;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+ body{
+    width: 100%;
+    height: 100vh;
+}
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+.links a{
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.botoes{
+   color: var(--text-color);
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+}
+.botao__entrar{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.botao__cadastrar{
+    background-color: var(--text-color2);
+    color: #FFF;
+    font-size: 0.9rem;
+    margin-right: 2.25rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--text-color2);
+    cursor: pointer;
+}
+.cabecalho{
+    display: flex;
+    padding: 7rem 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+.cabecalho h1{
+    color: var(--text-color3);
+}
+.sobre{
+    color: var(--text-color2);
+    font-weight: bold;
+    text-align: center;
+}
+.texto__cabecalho{
+    color: var(--text-color);
+    font-size: .86rem;
+    max-width: 52%;
+}
+.metricas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem;
+    width: 100%;
+    margin: auto;
+    height: 11.25rem;
+    max-width: 61.25rem;
+}
+.container__metricas{
+    margin: 0.625rem;
+    width: 18%;
+}
+.titulo__metricas{
+    font-size: 60px;
+    color: var(--text-color2);
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.subtitulo__metricas{
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+    line-height: 28px;
+}
+.texto__metricas{ 
+    font-size: .86rem;
+    color: #667085;
+}
+.vagas1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    gap: 20px;
+}
+.vagas{
+    color: var(--text-color2);
+    font-weight: bold;
+    font-size: 14px;
+}
+.titulo__vagas{
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: 44px;
+    color: var(--text-color3);
+}
+.texto__vagas{
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 30px;
+}
+.imagem__capa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.vagas__descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px 10px;
+}
+.vagas__extra{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 10px;
+    color: var(--text-color3);
+}
+.subtitulos__vagas h2{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    color: var(--text-color3);
+}
+.apresentacao__vagas{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 20px 0px;
+    margin: 10px 0 10px 30px;
+}
+.apresentacao__vagas p{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color3);
+}
+.descricao__salarial{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.descricao__salarial p{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 3rem 2rem;
+    margin: 8rem auto;
+}
+.depoimentos span{
+    color: var(--text-color2);
+    font-weight: 500;
+    text-align: center;
+}
+.depoimentos h2{
+    color: var(--text-color3);
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+.depoimentos img{
+    width: 48px;
+}
+.nome__julia{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color3);
+    margin: 0.5rem 0;
+}
+.cargo__julia{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 6rem 1rem;
+    background: #F9FAFB;
+}
+footer h2{
+    color: var(--text-color3);
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding: 4px;
+}
+footer span{
+    color: var(--text-color);
+}
+footer input{
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+}
+.botao__cadastrar2{
+    background-color: var(--text-color2);
+    color: #FFF;
+    flex-direction: row;
+    border-radius: 8px;
+    border: 1px solid var(--text-color2);
+    cursor: pointer;
+    padding: 12px 20px;
+}
