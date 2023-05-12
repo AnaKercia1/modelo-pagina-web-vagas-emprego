@@ -14,7 +14,7 @@
 ##### Projeto de site para vagas de emprego, com todas as informações sobre a empresa recrutadora, sobre seus colaboradores, clientes, projetos entre outros. Contém todas as informações sobre vagas disponíves, e, opções para cadastrar-se a vaga, tambem opção para deixar e-mail cadastrado para ser informado sobre novas vagas de emprego, tudo desenvolvido com HTML e CSS.  
 
  ## Projeto desenvolvido para adquirir mais conhecimentos em HTML e CSS, montando cabeçalhos, corpo e rodapé, estilizando toda a página.
-##### Desenvolvi esse site para o desafio #7Daysofcod da #Alura. O desafio era montar uma parte da página por dia, totalizando 7 dias de desafio.
+##### Desenvolvi esse site para o desafio #7Daysofcode da #Alura. O desafio era montar uma parte da página por dia, totalizando 7 dias de desafio.
 
 
 <img src="https://github.com/AnaKercia1/modelo-pagina-web-vagas-emprego/assets/123599474/20ffb170-49f3-4e6a-a908-a46a5aee37ec" width="48">
